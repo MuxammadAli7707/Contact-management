@@ -59,7 +59,7 @@ function filterItems(e) {
 const elAll = document.getElementById('all');
 const elFam = document.getElementById('fam');
 const elFri = document.getElementById('fri');
-const elCol = document.getElementById('col');
+const elpar = document.getElementById('par');
 
 elAll.addEventListener('click', () => {
   let sortLi = document.querySelectorAll('li');
@@ -96,7 +96,7 @@ elFam.addEventListener('click', ()=> {
 
   });
 
-  elCol.addEventListener('click', () => {
+  elpar.addEventListener('click', () => {
     let sortLi = document.querySelectorAll('li');
 
     for(let i = 0; i < sortLi.length; i++) {

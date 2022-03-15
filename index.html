@@ -38,17 +38,19 @@
         <div>
           <label class="form__label pb-2">
             Phone Number
-            <input id="number" class="d-block form__input mt-1 mb-4" type="text" name="text" placeholder="+9989" required>
+            <input id="number" class="d-block form__input mt-1 mb-4" type="number" name="number" placeholder="+9989" required>
          </label>
         </div>
   
-        <select id="select" class="form-select mb-4" aria-label="Filter category">
-          <option selected>Relationship</option>
-          <option value="all">All</option>
-          <option value="friends">Friends</option>
-          <option value="family">Family</option>
-          <option value="partner">Partners</option>
-        </select>
+        <label class="form__label pb-2">
+          Relationship
+          <select id="select" class="form-select mt-2 mb-4" aria-label="Filter category">
+            <option value="all">All</option>
+            <option value="friends">Friends</option>
+            <option value="family">Family</option>
+            <option value="partner">Partners</option>
+          </select>
+        </label>
   
         <button id="send" class="btn btn-primary" type="submit">Submit form</button>
       </form>
@@ -58,7 +60,7 @@
           <button id="all" type="button" class="result__btn active">All</button>
           <button id="fri" type="button" class="result__btn">Friends</button>
           <button id="fam" type="button" class="result__btn">Family</button>
-          <button id="col" type="button" class="result__btn">Partners</button>
+          <button id="par" type="button" class="result__btn">Partners</button>
         </div>
 
         <div class="result__search">
@@ -66,11 +68,11 @@
         </div>
 
         <ul id="items" class="result__list">
-
+<!-- 
           <li class="result__item">
             <p class="result__text"><span class="result__span">FullName:</span> Abdufattoxov MuxammadAli</p>
             <p class="result__text"><span class="result__span">Number:</span> +998946772982</p>
-          </li>
+          </li> -->
          
         </ul>
         <div class="footer__box">
