@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600&display=swap');
+
 *,
 *::after,
 *::before {
@@ -10,6 +12,129 @@ body {
   background-color: #fff;
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Fredoka', sans-serif;
 }
 
+.full {
+  width: 100%;
+  padding: 30px 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  margin-bottom: 50px;
+  min-height: 50vh;
+  box-shadow: -3px 8px 26px 4px rgb(0 0 0 / 75%);
+}
+
+.contact {
+  border-bottom: 1px solid #663399;
+  margin-bottom: 30px;
+}
+.contact__title {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.contact__box {
+  width: 100%;
+  min-height: 50vh;
+}
+.form {
+  width: 50%;
+  border-right: 2px solid #663399;
+  padding-right: 10px;
+}
+
+.form__label {
+  width: 100%;
+  font-size: 20px;
+  font-weight: 600;
+}
+.form__input {
+  width: 100%;
+  padding-left: 5px;
+  border: none;
+  border-bottom: 1px solid #663399;
+}
+.form__input:focus {
+  outline: none;
+}
+
+.result {
+  width: 50%;
+  position: relative;
+}
+.result__title {
+  font-weight: 500;
+}
+
+.result__btn {
+  border: 2px solid #663399;
+  background-color: transparent;
+  border-radius: 5px;
+  padding: 6px 20px;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.active {
+  background-color: #663399;
+  color: #fff;
+}
+
+.result__btn:active {
+  background-color: #663399;
+  color: #fff;
+} 
+
+.form__search {
+  width: 100%;
+  padding-left: 5px;
+  font-size: 22px;
+  border: none;
+  border-bottom: 1px solid #663399;
+}
+.form__search:focus {
+  outline: none;
+}
+.result__search {
+  padding-left: 30px;
+}
+
+.result__list {
+  list-style: none;
+}
+.result__item {
+  width: 100%;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-bottom: 18px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.result__span {
+  font-size: 18px;
+  font-weight: 500;
+  border-bottom: 1px solid #000;
+  margin-right: 15px;
+}
+
+.result__text {
+  font-size: 20px;
+}
+
+.footer__clear {
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 18px;
+  padding: 6px 10px;
+  cursor: pointer;
+}
+
+.footer__box {
+  display: flex;
+  justify-content: end;
+}
